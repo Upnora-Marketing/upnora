@@ -7,7 +7,7 @@
 
 /* ---------- CONFIG ---------- */
 /* Change this single variable to update every WhatsApp button on the site. */
-const WHATSAPP_NUMBER = "212XXXXXXXXX";
+const WHATSAPP_NUMBER = "212672569891";
 const WHATSAPP_MESSAGE = "Hello UPNORA, I'd like a free audit for my business.";
 
 /* ---------- TRANSLATIONS ---------- */
