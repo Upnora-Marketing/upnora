@@ -9,7 +9,7 @@ const WHATSAPP_MESSAGE = "Hello UPNORA, I'd like a free audit for my business.";
 /* ---------- TRANSLATIONS ---------- */
 const TRANSLATIONS = {
   en: {
-    nav:{ services:"Services", how:"How It Works", packages:"Packages", portfolio:"Portfolio", faq:"FAQ", contact:"Contact", cta:"Get a Free Audit" },
+    nav:{ services:"Services", how:"How It Works", packages:"Packages", portfolio:"Who We Help", faq:"FAQ", contact:"Contact", cta:"Get a Free Audit" },
     hero:{
       title1:"Turn Your Online Presence Into", title2:"Business Growth.",
       sub:"UPNORA helps local businesses build a stronger digital presence, get discovered on Google, create high-converting websites, and turn more visitors into real customers.",
@@ -54,7 +54,7 @@ const TRANSLATIONS = {
     },
     faq:{
       title:"Frequently Asked Questions",
-      q1:"What does UPNORA Marketing do?", a1:"We help businesses build a stronger online presence through Google optimization, websites, local marketing, and paid advertising — all under one growth system.",
+      q1:"What does UPNORA Marketing do?", a1:"We help businesses build a stronger online presence through Google optimization, websites, local marketing, and paid advertising — all under one growth roof.",
       q2:"Do you work with small local businesses?", a2:"Yes. Our services are built specifically around how local businesses are found and chosen by customers nearby.",
       q3:"How quickly can my website be ready?", a3:"Timelines depend on scope, but most showcase websites are ready within a short, clearly communicated timeframe once content is provided.",
       q4:"Can you manage my Google Business Profile?", a4:"Yes, ongoing Google Business Profile management is included in our Growth Starter and Full Scale packages.",
@@ -72,14 +72,14 @@ const TRANSLATIONS = {
     nav:{ services:"Services", how:"Notre Méthode", packages:"Forfaits", portfolio:"Réalisations", faq:"FAQ", contact:"Contact", cta:"Audit Gratuit" },
     hero:{
       title1:"Transformez Votre Présence en Ligne en", title2:"Croissance Réelle.",
-      sub:"UPNORA aide les entreprises locales à renforcer leur présence numérique, à être visibles sur Google, à créer des sites qui convertissent, et à transformer plus de visiteurs en clients.",
+      sub:"UPNORA aide les entreprises locales à renforcer leur présence numérique, à être visibles sur Google, à créer des sites qui convertissent, et à transformer plus de visiteurs en clients réels.",
       cta1:"Obtenir Mon Audit Gratuit", cta2:"Découvrir Nos Services",
       trust:"Google • Sites Web • Marketing Local • Publicité",
       dashboardLabel:"Tableau de Croissance · Exemple",
       m1:"Visibilité Google", m2:"Visiteurs du site", m3:"Leads", m4:"Note",
       dashboardNote:"Tableau d'exemple à titre illustratif — pas des résultats réels de clients UPNORA."
     },
-    value:{ line:"Conçu pour aider les entreprises locales à être trouvées, choisies et approuvées.", i1:"Visibilité Google", i2:"Présence Web", i3:"Génération de Leads", i4:"Publicité Locale", i5:"Réputation en Ligne" },
+    value:{ line:"Conçu pour aider les entreprises locales à être trouvées, choisies et approuvées.", i1:"Visibilité Google", i2:"Présence Web", i3:"Génération de Leads", i4:"Publicité Locale", i5:"Croissance de Réputation" },
     services:{
       title:"Tout Ce Dont Votre Entreprise a Besoin Pour Grandir en Ligne",
       sub:"Nous combinons visibilité, design et marketing dans un seul système de croissance.",
@@ -96,12 +96,12 @@ const TRANSLATIONS = {
       s3:{ title:"Lancement", desc:"Nous mettons en action votre nouvelle présence numérique et vos campagnes." },
       s4:{ title:"Croissance", desc:"Nous optimisons ce qui fonctionne et construisons une croissance durable." }
     },
-    results:{ title:"La Croissance Doit Être Visible.", r1:"Visibilité", r2:"Leads Mensuels", r3:"Conversion", r4:"Note Moyenne", note:"Vos résultats dépendront de votre entreprise, votre marché, votre offre et votre campagne." },
+    results:{ title:"La Croissance Doit Être Visible.", r1:"Visibilité", r2:"Leads Mensuels", r3:"Conversion", r4:"Note Moyenne", note:"Vos résultats dépendront de votre entreprise, votre marché, votre offre et campagne." },
     packages:{
       title:"Des Services Simples. Des Prix Clairs.", currency:"DH", perMonth:"/mois", popular:"Le Plus Populaire",
       cta1:"Commencer", cta2:"Parler à UPNORA",
       p1:{ name:"Présence Google", f1:"Configuration Google Business", f2:"Optimisation du profil", f3:"Optimisation des informations", f4:"Optimisation des photos", f5:"Optimisation des mots-clés", f6:"Lien d'avis direct" },
-      p2:{ name:"Démarrage Croissance", f1:"Tout dans Présence Google", f2:"Site vitrine personnalisé", f3:"Optimisation mobile", f4:"Intégration WhatsApp", f5:"Boutons d'appel direct", f6:"SEO de base" },
+      p2:{ name:"Démarrage Croissance", f1:"Tout dans Présence Google", f2:"Site vitrine personnalisé", f3:"Optimisation mobile", f4:"Intégration WhatsApp", f5:"Boutons d'appel direct", f6:"Configuration SEO basique" },
       p3:{ name:"Échelle Complète", f1:"Gestion Google Business", f2:"Marketing local", f3:"Stratégie d'avis", f4:"Gestion des campagnes publicitaires", f5:"Optimisation mensuelle", f6:"Suivi des performances" }
     },
     portfolio:{ title:"Des Solutions Pensées Pour Votre Type d'Entreprise.", sub:"Quel que soit votre secteur, voici comment nous aborderions votre croissance.", viewProject:"Ce qui est inclus" },
@@ -114,32 +114,32 @@ const TRANSLATIONS = {
     },
     faq:{
       title:"Questions Fréquentes",
-      q1:"Que fait UPNORA Marketing ?", a1:"Nous aidons les entreprises à renforcer leur présence en ligne grâce à l'optimisation Google, aux sites web, au marketing local et à la publicité payante — le tout dans un seul système de croissance.",
-      q2:"Travaillez-vous avec les petites entreprises locales ?", a2:"Oui. Nos services sont conçus spécifiquement selon la façon dont les entreprises locales sont trouvées et choisies par les clients à proximité.",
+      q1:"Que fait UPNORA Marketing ?", a1:"Nous aidons les entreprises à renforcer leur présence en ligne grâce à l'optimisation Google, aux sites web, au marketing local et à la publicité payante.",
+      q2:"Travaillez-vous avec les petites entreprises locales ?", a2:"Oui. Nos services sont conçus spécifiquement selon la façon dont les entreprises locales sont trouvées et choisies par les clients locaux.",
       q3:"En combien de temps mon site sera-t-il prêt ?", a3:"Les délais dépendent du projet, mais la plupart des sites vitrines sont prêts dans un délai court et clairement communiqué une fois le contenu fourni.",
       q4:"Pouvez-vous gérer ma fiche Google Business ?", a4:"Oui, la gestion continue de votre fiche Google Business est incluse dans nos forfaits Démarrage Croissance et Échelle Complète.",
       q5:"Proposez-vous un marketing mensuel ?", a5:"Oui, notre forfait Échelle Complète inclut un marketing mensuel continu, une optimisation et un suivi des performances.",
       q6:"Puis-je vous contacter via WhatsApp ?", a6:"Oui, chaque bouton « Commencer » et « Parler à UPNORA » sur ce site ouvre directement une conversation WhatsApp.",
-      q7:"Proposez-vous des forfaits personnalisés ?", a7:"Oui. Si votre entreprise a besoin de quelque chose de différent de nos forfaits standards, contactez-nous et nous bâtirons un plan adapté à vos objectifs."
+      q7:"Proposez-vous des forfaits personnalisés ?", a7:"Oui. Si votre entreprise a besoin de quelque chose de différent de nos forfaits standards, contactez-nous et nous bâtirons un plan adapté."
     },
     finalCta:{ title:"Prêt à Faire Grandir Votre Entreprise ?", text:"Trouvons ensemble les plus grandes opportunités de votre présence en ligne et transformons-les en votre prochaine source de croissance.", cta1:"Obtenir Mon Audit Gratuit", cta2:"Parler à UPNORA" },
     footer:{ tagline:"BOOSTEZ VOTRE CROISSANCE", desc:"Solutions de marketing digital et de croissance en ligne pour les entreprises ambitieuses.", linksTitle:"Liens", contactTitle:"Contact", whatsapp:"WhatsApp", rights:"Tous droits réservés." },
     tabbar:{ home:"Accueil", services:"Services", packages:"Forfaits", contact:"WhatsApp", menu:"Menu" },
-    promo:{ badge:"Offre Limitée", title:"25% de Réduction sur Votre Première Commande", text:"Démarrez votre croissance avec UPNORA et économisez 25% sur votre premier forfait.", cta:"Profiter de -25%", dismiss:"Plus tard" }
+    promo:{ badge:"Offre Limitée", title:"25% de Réduction sur Votre Première Commande", text:"Démarrez votre croissance avec UPNORA et économisez 25% sur votre premier forfait.", cta:"Profiter de 25%", dismiss:"Plus tard" }
   },
 
   ar:{
     nav:{ services:"الخدمات", how:"طريقة العمل", packages:"الباقات", portfolio:"أعمالنا", faq:"الأسئلة الشائعة", contact:"تواصل معنا", cta:"احصل على تدقيق مجاني" },
     hero:{
       title1:"حوّل حضورك الرقمي إلى", title2:"نمو حقيقي لأعمالك.",
-      sub:"تساعد UPNORA الأعمال المحلية على بناء حضور رقمي أقوى، والظهور على جوجل، وإنشاء مواقع تحقق نتائج، وتحويل الزوار إلى عملاء حقيقيين.",
+      sub:"تساعد UPNORA الأعمال المحلية على بناء حضور رقمي أقوى، والظهور على جوجل، وإنشاء مواقع تحقق نتائج، وتحويل المزيد من الزوار إلى عملاء حقيقيين.",
       cta1:"احصل على تدقيق مجاني", cta2:"اكتشف خدماتنا",
       trust:"جوجل • مواقع إلكترونية • تسويق محلي • إعلانات ممولة",
       dashboardLabel:"لوحة النمو · مثال توضيحي",
       m1:"ظهور جوجل", m2:"زوار الموقع", m3:"العملاء المحتملون", m4:"التقييم",
       dashboardNote:"لوحة توضيحية للعرض فقط — وليست نتائج حقيقية لعملاء UPNORA."
     },
-    value:{ line:"مصمم لمساعدة الأعمال المحلية على أن تُكتشف وتُختار وتُثق بها.", i1:"ظهور جوجل", i2:"الحضور الرقمي", i3:"جذب العملاء", i4:"إعلانات محلية", i5:"تعزيز السمعة" },
+    value:{ line:"مصمم لمساعدة الأعمال المحلية على أن تُكتشف وتُختار وتُثق بها.", i1:"ظهور جوجل", i2:"الحضور الرقمي", i3:"جذب العملاء المحتملين", i4:"الإعلانات المحلية", i5:"نمو السمعة" },
     services:{
       title:"كل ما تحتاجه أعمالك للنمو أونلاين",
       sub:"نجمع بين الظهور والتصميم والتسويق في نظام نمو واحد بسيط.",
@@ -156,15 +156,15 @@ const TRANSLATIONS = {
       s3:{ title:"الإطلاق", desc:"نطلق حضورك الرقمي الجديد وحملاتك على أرض الواقع." },
       s4:{ title:"التوسع", desc:"نحسّن ما ينجح ونبني نموًا مستمرًا." }
     },
-    results:{ title:"النمو يجب أن يكون ملموسًا.", r1:"الظهور", r2:"عملاء محتملون شهريًا", r3:"معدل التحويل", r4:"متوسط التقييم", note:"تعتمد نتائجك على نشاطك التجاري وسوقك وعرضك وحملتك." },
+    results:{ title:"النمو يجب أن يكون ملموسًا.", r1:"الظهور", r2:"عملاء محتملون شهريًا", r3:"معدل التحويل", r4:"متوسط التقييم", note:"ستعتمد نتائجك على نشاطك وسوقك وعرضك وحملتك." },
     packages:{
       title:"خدمات بسيطة. أسعار واضحة.", currency:"درهم", perMonth:"/شهريًا", popular:"الأكثر طلبًا",
       cta1:"ابدأ الآن", cta2:"تحدث مع UPNORA",
-      p1:{ name:"حضور جوجل", f1:"إعداد جوجل بزنس", f2:"تحسين الملف الشخصي", f3:"تحسين معلومات النشاط", f4:"تحسين الصور", f5:"تحسين الكلمات المفتاحية", f6:"رابط تقييم مباشر" },
-      p2:{ name:"بداية النمو", f1:"كل ما في حضور جوجل", f2:"موقع عرض مخصص", f3:"تحسين للجوال", f4:"دمج واتساب", f5:"أزرار اتصال مباشر", f6:"تهيئة أساسية لمحركات البحث" },
-      p3:{ name:"التوسع الكامل", f1:"إدارة جوجل بزنس", f2:"تسويق محلي", f3:"استراتيجية التقييمات", f4:"إدارة الحملات الإعلانية", f5:"تحسين شهري", f6:"متابعة الأداء" }
+      p1:{ name:"حضور جوجل", f1:"إعداد جوجل بزنس", f2:"تحسين الملف الشخصي", f3:"تحسين معلومات النشاط", f4:"تحسين الصور", f5:"تحسين الكلمات المفتاحية", f6:"رابط الأراء المباشر" },
+      p2:{ name:"بداية النمو", f1:"كل ما في حضور جوجل", f2:"موقع عرض مخصص", f3:"تحسين للجوال", f4:"دمج واتساب", f5:"أزرار اتصال مباشرة", f6:"إعداد SEO أساسي" },
+      p3:{ name:"التوسع الكامل", f1:"إدارة جوجل بزنس", f2:"تسويق محلي", f3:"استراتيجية التقييمات", f4:"إدارة الحملات الإعلانية", f5:"تحسين شهري", f6:"مراقبة الأداء" }
     },
-    portfolio:{ title:"حلول مصممة حسب نوع نشاطك.", sub:"مهما كان نشاطك، إليك كيف يمكننا مساعدتك على النمو.", viewProject:"ما الذي يشمله" },
+    portfolio:{ title:"حلول مصممة حسب نوع نشاطك.", sub:"مهما كان نشاطك، إليك كيف يمكننا مساعدتك على النمو.", viewProject:"ما المضمون" },
     why:{
       title:"لماذا تختار الأعمال UPNORA",
       w1:{ title:"استراتيجية تركز على العمل", desc:"نركز على نتائج الأعمال، وليس على المؤشرات الشكلية." },
@@ -174,28 +174,28 @@ const TRANSLATIONS = {
     },
     faq:{
       title:"الأسئلة الشائعة",
-      q1:"ماذا تقدم UPNORA للتسويق؟", a1:"نساعد الأعمال على تعزيز حضورها الرقمي من خلال تحسين جوجل والمواقع الإلكترونية والتسويق المحلي والإعلانات الممولة — كل ذلك ضمن نظام نمو واحد.",
-      q2:"هل تعملون مع الأعمال المحلية الصغيرة؟", a2:"نعم. خدماتنا مصممة خصيصًا حسب طريقة اكتشاف واختيار الأعمال المحلية من قبل العملاء القريبين.",
-      q3:"كم يستغرق تجهيز موقعي؟", a3:"تعتمد المدة على حجم المشروع، لكن معظم مواقع العرض تكون جاهزة خلال فترة قصيرة وواضحة بعد استلام المحتوى.",
-      q4:"هل يمكنكم إدارة ملفي على جوجل بزنس؟", a4:"نعم، تشمل باقتا بداية النمو والتوسع الكامل إدارة مستمرة لملف جوجل بزنس.",
-      q5:"هل تقدمون تسويقًا شهريًا؟", a5:"نعم، تتضمن باقة التوسع الكامل تسويقًا شهريًا مستمرًا وتحسينًا ومتابعة للأداء.",
+      q1:"ماذا تقدم UPNORA للتسويق؟", a1:"نساعد الأعمال على تعزيز حضورها الرقمي من خلال تحسين جوجل والمواقع الإلكترونية والتسويق المحلي والإعلانات الممولة.",
+      q2:"هل تعملون مع الأعمال المحلية الصغيرة؟", a2:"نعم. خدماتنا مصممة خصيصًا حسب طريقة اكتشاف واختيار الأعمال المحلية من قبل العملاء المحليين.",
+      q3:"كم يستغرق تجهيز موقعي؟", a3:"تعتمد المدة على حجم المشروع، لكن معظم مواقع العرض تكون جاهزة خلال فترة قصيرة وبوضوح بمجرد توفير المحتوى.",
+      q4:"هل يمكنكم إدارة ملفي على جوجل بزنس؟", a4:"نعم، تشمل باقتا بداية النمو والتوسع الكامل إدارة مستمرة لملف جوجل بزنس الخاص بك.",
+      q5:"هل تقدمون تسويقًا شهريًا؟", a5:"نعم، تتضمن باقة التوسع الكامل تسويقًا شهريًا مستمرًا وتحسينًا ومتابعة الأداء.",
       q6:"هل يمكنني التواصل معكم عبر واتساب؟", a6:"نعم، كل زر «ابدأ الآن» و«تحدث مع UPNORA» في هذا الموقع يفتح محادثة واتساب مباشرة.",
-      q7:"هل تقدمون باقات مخصصة؟", a7:"نعم. إذا كان نشاطك يحتاج إلى شيء مختلف عن باقاتنا القياسية، تواصل معنا وسنبني خطة تناسب أهدافك."
+      q7:"هل تقدمون باقات مخصصة؟", a7:"نعم. إذا كان نشاطك يحتاج إلى شيء مختلف عن باقاتنا القياسية، تواصل معنا وسنبني خطة حول احتياجاتك."
     },
-    finalCta:{ title:"هل أنت مستعد لتنمية أعمالك؟", text:"لنكتشف معًا أكبر الفرص في حضورك الرقمي ونحوّلها إلى مصدر نمو جديد لأعمالك.", cta1:"احصل على تدقيق مجاني", cta2:"تحدث مع UPNORA" },
-    footer:{ tagline:"طوّر نموك إلى الأعلى", desc:"حلول تسويق رقمي ونمو أونلاين للأعمال الطموحة.", linksTitle:"روابط", contactTitle:"تواصل معنا", whatsapp:"واتساب", rights:"جميع الحقوق محفوظة." },
+    finalCta:{ title:"هل أنت مستعد لتنمية أعمالك؟", text:"لنكتشف معًا أكبر الفرص في حضورك الرقمي ونحوّلها إلى مصدر نمو جديد.", cta1:"احصل على تدقيق مجاني", cta2:"تحدث مع UPNORA" },
+    footer:{ tagline:"طوّر نموك إلى الأعلى", desc:"حلول تسويق رقمي ونمو أونلاين للأعمال الطموحة.", linksTitle:"روابط", contactTitle:"تواصل", whatsapp:"واتساب", rights:"جميع الحقوق محفوظة." },
     tabbar:{ home:"الرئيسية", services:"الخدمات", packages:"الباقات", contact:"واتساب", menu:"القائمة" },
-    promo:{ badge:"عرض محدود", title:"خصم 25% على أول طلب", text:"ابدأ رحلة نمو أعمالك مع UPNORA ووفّر 25% على باقتك الأولى.", cta:"احصل على خصم 25%", dismiss:"ربما لاحقًا" }
+    promo:{ badge:"عرض محدود", title:"خصم 25% على أول طلب", text:"ابدأ رحلة نمو أعمالك مع UPNORA ووفّر 25% على باقتك الأولى.", cta:"احصل على 25%", dismiss:"لاحقًا" }
   }
 };
 
 const PORTFOLIO_ITEMS = [
-  { category:{en:"Restaurants & Cafés",fr:"Restaurants & Cafés",ar:"مطاعم ومقاهي"}, name:{en:"Get found at mealtime",fr:"Soyez visible à l'heure des repas",ar:"كن حاضرًا وقت الوجبات"}, desc:{en:"A menu-friendly website, WhatsApp ordering setup, and Google visibility so hungry customers nearby find you first.",fr:"Un site axé sur le menu, une commande WhatsApp et une visibilité Google pour que les clients affamés à proximité vous trouvent en premier.",ar:"موقع يبرز قائمة الطعام، وإعداد الطلب عبر واتساب، وتحسين الظهور على جوجل ليجدك الزبائن الجائعون القريبون أولاً."} },
-  { category:{en:"Barbershops & Salons",fr:"Salons de Coiffure & Beauté",ar:"صالونات الحلاقة والتجميل"}, name:{en:"Fill your appointment book",fr:"Remplissez votre agenda",ar:"املأ جدول مواعيدك"}, desc:{en:"A booking-ready website with click-to-call, plus a Google Business setup built for local searches.",fr:"Un site prêt pour les réservations avec appel direct, et une fiche Google Business pensée pour les recherches locales.",ar:"موقع جاهز للحجز مع اتصال مباشر، وإعداد لملف جوجل بزنس مصمم للبحث المحلي."} },
-  { category:{en:"Beauty & Wellness",fr:"Beauté & Bien-être",ar:"تجميل وعناية"}, name:{en:"Turn visitors into bookings",fr:"Transformez les visiteurs en réservations",ar:"حوّل الزوار إلى حجوزات"}, desc:{en:"A high-converting showcase site with WhatsApp integration, designed to make booking effortless.",fr:"Un site vitrine performant avec intégration WhatsApp, conçu pour rendre la réservation facile.",ar:"موقع عرض فعّال مع دمج واتساب، مصمم لجعل الحجز سهلًا."} },
-  { category:{en:"Clinics & Practices",fr:"Cliniques & Cabinets",ar:"عيادات ومراكز"}, name:{en:"Build patient trust online",fr:"Bâtissez la confiance des patients en ligne",ar:"ابنِ ثقة المرضى عبر الإنترنت"}, desc:{en:"A trust-focused website paired with local marketing designed to bring in new patients.",fr:"Un site axé sur la confiance associé à un marketing local pour attirer de nouveaux patients.",ar:"موقع يبني الثقة مع تسويق محلي مصمم لجذب مرضى جدد."} },
-  { category:{en:"Local Services",fr:"Services Locaux",ar:"خدمات محلية"}, name:{en:"Be the obvious local choice",fr:"Devenez le choix local évident",ar:"كن الخيار المحلي الواضح"}, desc:{en:"Google Business optimization and reputation growth so you're the name people trust nearby.",fr:"Optimisation Google Business et croissance de réputation pour être le nom auquel on fait confiance.",ar:"تحسين جوجل بزنس وتعزيز السمعة لتكون الاسم الموثوق قريبًا."} },
-  { category:{en:"E-commerce",fr:"E-commerce",ar:"متجر إلكتروني"}, name:{en:"Sell to your local market",fr:"Vendez à votre marché local",ar:"بِع لسوقك المحلي"}, desc:{en:"A product-led store built for local delivery, click-to-order, and targeted paid advertising.",fr:"Une boutique orientée produit conçue pour la livraison locale et la publicité ciblée.",ar:"متجر يركز على المنتجات مصمم للتوصيل المحلي والإعلانات المستهدفة."} }
+  { category:{en:"Restaurants & Cafés",fr:"Restaurants & Cafés",ar:"مطاعم ومقاهي"}, name:{en:"Get found at mealtime",fr:"Soyez visible à l'heure des repas",ar:"كن حاضرًا وقت الطعام"}, desc:{en:"Help customers discover your menu and make reservations online.",fr:"Aidez les clients à découvrir votre menu et réserver en ligne.",ar:"ساعد العملاء على اكتشاف قائمتك والحجز عبر الإنترنت."} },
+  { category:{en:"Barbershops & Salons",fr:"Salons de Coiffure & Beauté",ar:"صالونات الحلاقة والتجميل"}, name:{en:"Fill your appointment book",fr:"Remplissez votre agenda",ar:"امتلئ جدول مواعيدك"}, desc:{en:"Showcase services and let customers book directly from your website.",fr:"Mettez en avant les services et laissez les clients réserver directement.",ar:"اعرض الخدمات واترك العملاء يحجزون مباشرة."} },
+  { category:{en:"Beauty & Wellness",fr:"Beauté & Bien-être",ar:"تجميل وعناية"}, name:{en:"Turn visitors into bookings",fr:"Transformez les visiteurs en réservations",ar:"حوّل الزوار إلى حجوزات"}, desc:{en:"Professional websites that convert lookers into loyal customers.",fr:"Des sites professionnels qui transforment les visiteurs en clients fidèles.",ar:"مواقع احترافية تحول الزوار إلى عملاء مخلصين."} },
+  { category:{en:"Clinics & Practices",fr:"Cliniques & Cabinets",ar:"عيادات ومراكز"}, name:{en:"Build patient trust online",fr:"Bâtissez la confiance des patients en ligne",ar:"ابنِ ثقة المرضى عبر الإنترنت"}, desc:{en:"Medical websites that communicate professionalism and care.",fr:"Des sites médicaux qui communiquent le professionnalisme.",ar:"مواقع طبية تنقل الاحترافية والاهتمام."} },
+  { category:{en:"Local Services",fr:"Services Locaux",ar:"خدمات محلية"}, name:{en:"Be the obvious local choice",fr:"Devenez le choix local évident",ar:"كن الخيار المحلي الواضح"}, desc:{en:"Stand out from competitors with strong local marketing and reputation.",fr:"Démarquez-vous avec un marketing local et une réputation forte.",ar:"تميز عن المنافسين بتسويق محلي قوي."} },
+  { category:{en:"E-commerce",fr:"E-commerce",ar:"متجر إلكتروني"}, name:{en:"Sell to your local market",fr:"Vendez à votre marché local",ar:"بِع لسوقك المحلي"}, desc:{en:"Online stores built to drive local sales and customer engagement.",fr:"Des boutiques en ligne conçues pour les ventes locales.",ar:"متاجر عبر الإنترنت مصممة للمبيعات المحلية."} }
 ];
 
 let currentLang = localStorage.getItem("upnora_lang") || "en";
@@ -206,7 +206,10 @@ function buildWhatsAppLink(){
 }
 
 function applyWhatsAppLinks(){
-  document.querySelectorAll(".whatsapp-link").forEach(el => {
+  const links = document.querySelectorAll(".whatsapp-link");
+  if (!links || links.length === 0) return;
+  
+  links.forEach(el => {
     el.setAttribute("href", buildWhatsAppLink());
     el.setAttribute("target", "_blank");
     el.setAttribute("rel", "noopener noreferrer");
@@ -214,23 +217,37 @@ function applyWhatsAppLinks(){
 }
 
 function getValue(obj, path){
-  return path.split(".").reduce((o,k)=> (o && o[k] !== undefined) ? o[k] : null, obj);
+  if (!obj || !path) return null;
+  return path.split(".").reduce((o, k) => (o && o[k] !== undefined) ? o[k] : null, obj);
 }
 
 function applyTranslations(lang){
   const dict = TRANSLATIONS[lang] || TRANSLATIONS.en;
-  document.querySelectorAll("[data-i18n]").forEach(el => {
+  const elements = document.querySelectorAll("[data-i18n]");
+  
+  if (!elements || elements.length === 0) return;
+  
+  elements.forEach(el => {
+    if (!el) return;
     const key = el.getAttribute("data-i18n");
+    if (!key) return;
     const value = getValue(dict, key);
-    if (value !== null) el.textContent = value;
+    if (value !== null) {
+      el.textContent = value;
+    }
   });
 
   document.documentElement.lang = lang;
   document.documentElement.dir = lang === "ar" ? "rtl" : "ltr";
 
-  document.querySelectorAll(".lang-btn").forEach(btn => {
-    btn.classList.toggle("active", btn.dataset.lang === lang);
-  });
+  const langBtns = document.querySelectorAll(".lang-btn");
+  if (langBtns && langBtns.length > 0) {
+    langBtns.forEach(btn => {
+      if (btn) {
+        btn.classList.toggle("active", btn.dataset.lang === lang);
+      }
+    });
+  }
 
   renderPortfolio(lang);
   currentLang = lang;
@@ -245,15 +262,16 @@ function setLanguage(lang){
 function renderPortfolio(lang){
   const grid = document.getElementById("portfolioGrid");
   if (!grid) return;
+  
   const dict = TRANSLATIONS[lang] || TRANSLATIONS.en;
   grid.innerHTML = PORTFOLIO_ITEMS.map(item => `
     <article class="card portfolio-card fade-up in-view">
-      <div class="portfolio-thumb"><span>${item.category[lang] || item.category.en}</span></div>
+      <div class="portfolio-thumb"><span>${(item.category && item.category[lang]) || (item.category && item.category.en) || ""}</span></div>
       <div class="portfolio-body">
-        <p class="portfolio-category">${item.category[lang] || item.category.en}</p>
-        <h3>${item.name[lang] || item.name.en}</h3>
-        <p>${item.desc[lang] || item.desc.en}</p>
-        <button class="learn-more" type="button">${dict.portfolio.viewProject}</button>
+        <p class="portfolio-category">${(item.category && item.category[lang]) || (item.category && item.category.en) || ""}</p>
+        <h3>${(item.name && item.name[lang]) || (item.name && item.name.en) || ""}</h3>
+        <p>${(item.desc && item.desc[lang]) || (item.desc && item.desc.en) || ""}</p>
+        <button class="learn-more" type="button">${dict.portfolio.viewProject || "View"}</button>
       </div>
     </article>
   `).join("");
@@ -261,12 +279,21 @@ function renderPortfolio(lang){
 
 function initNav(){
   const nav = document.getElementById("siteNav");
-  const onScroll = () => nav.classList.toggle("scrolled", window.scrollY > 12);
+  if (!nav) return;
+  
+  const onScroll = () => {
+    if (nav) {
+      nav.classList.toggle("scrolled", window.scrollY > 12);
+    }
+  };
   onScroll();
-  window.addEventListener("scroll", onScroll, { passive:true });
+  window.addEventListener("scroll", onScroll, { passive: true });
 
   const hamburger = document.getElementById("hamburger");
   const mobileMenu = document.getElementById("mobileMenu");
+  
+  if (!hamburger || !mobileMenu) return;
+  
   hamburger.addEventListener("click", () => {
     const isOpen = mobileMenu.classList.toggle("open");
     hamburger.classList.toggle("open", isOpen);
@@ -274,33 +301,47 @@ function initNav(){
     hamburger.setAttribute("aria-label", isOpen ? "Close menu" : "Open menu");
   });
 
-  mobileMenu.querySelectorAll("a").forEach(link => {
-    link.addEventListener("click", () => {
-      mobileMenu.classList.remove("open");
-      hamburger.classList.remove("open");
-      hamburger.setAttribute("aria-expanded", "false");
+  const menuLinks = mobileMenu.querySelectorAll("a");
+  if (menuLinks && menuLinks.length > 0) {
+    menuLinks.forEach(link => {
+      link.addEventListener("click", () => {
+        mobileMenu.classList.remove("open");
+        hamburger.classList.remove("open");
+        hamburger.setAttribute("aria-expanded", "false");
+      });
     });
-  });
+  }
 }
 
 function initLangButtons(){
-  document.querySelectorAll(".lang-btn").forEach(btn => {
+  const buttons = document.querySelectorAll(".lang-btn");
+  if (!buttons || buttons.length === 0) return;
+  
+  buttons.forEach(btn => {
     btn.addEventListener("click", () => setLanguage(btn.dataset.lang));
   });
 }
 
 function initAccordion(){
-  document.querySelectorAll(".accordion-item").forEach(item => {
+  const items = document.querySelectorAll(".accordion-item");
+  if (!items || items.length === 0) return;
+  
+  items.forEach(item => {
     const trigger = item.querySelector(".accordion-trigger");
     const panel = item.querySelector(".accordion-panel");
+    
+    if (!trigger || !panel) return;
+    
     trigger.addEventListener("click", () => {
       const isOpen = item.classList.contains("open");
 
       document.querySelectorAll(".accordion-item.open").forEach(openItem => {
         if (openItem !== item){
           openItem.classList.remove("open");
-          openItem.querySelector(".accordion-trigger").setAttribute("aria-expanded","false");
-          openItem.querySelector(".accordion-panel").style.maxHeight = null;
+          const openTrigger = openItem.querySelector(".accordion-trigger");
+          const openPanel = openItem.querySelector(".accordion-panel");
+          if (openTrigger) openTrigger.setAttribute("aria-expanded","false");
+          if (openPanel) openPanel.style.maxHeight = null;
         }
       });
 
@@ -319,27 +360,36 @@ function initAccordion(){
 
 function initScrollReveal(){
   const items = document.querySelectorAll(".fade-up");
+  if (!items || items.length === 0) return;
+  
   if (!("IntersectionObserver" in window)){
-    items.forEach(el => el.classList.add("in-view"));
+    items.forEach(el => el && el.classList.add("in-view"));
     return;
   }
+  
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
-      if (entry.isIntersecting){
+      if (entry.isIntersecting && entry.target){
         entry.target.classList.add("in-view");
         observer.unobserve(entry.target);
       }
     });
-  }, { threshold:0.15 });
-  items.forEach(el => observer.observe(el));
+  }, { threshold: 0.15 });
+  
+  items.forEach(el => {
+    if (el) observer.observe(el);
+  });
 }
 
 function initCounters(){
   const counters = document.querySelectorAll("[data-count]");
-  if (!counters.length) return;
+  if (!counters || counters.length === 0) return;
 
   const animate = (el) => {
+    if (!el || !el.dataset) return;
     const target = parseInt(el.dataset.count, 10);
+    if (isNaN(target)) return;
+    
     const suffix = el.dataset.suffix || (el.textContent.includes("%") ? "%" : "");
     const prefix = "+";
     const duration = 1400;
@@ -349,32 +399,39 @@ function initCounters(){
       const progress = Math.min((now - start) / duration, 1);
       const eased = 1 - Math.pow(1 - progress, 3);
       const value = Math.round(target * eased);
-      el.textContent = `${prefix}${value}${suffix}`;
+      if (el) el.textContent = `${prefix}${value}${suffix}`;
       if (progress < 1) requestAnimationFrame(step);
     };
     requestAnimationFrame(step);
   };
 
   if (!("IntersectionObserver" in window)){
-    counters.forEach(animate);
+    counters.forEach(el => {
+      if (el) animate(el);
+    });
     return;
   }
+  
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
-      if (entry.isIntersecting){
+      if (entry.isIntersecting && entry.target){
         animate(entry.target);
         observer.unobserve(entry.target);
       }
     });
-  }, { threshold:0.4 });
-  counters.forEach(el => observer.observe(el));
+  }, { threshold: 0.4 });
+  
+  counters.forEach(el => {
+    if (el) observer.observe(el);
+  });
 }
 
 function initLearnMore(){
   document.addEventListener("click", (e) => {
     const btn = e.target.closest(".service-card .learn-more");
     if (btn){
-      document.getElementById("contact")?.scrollIntoView({ behavior:"smooth" });
+      const contact = document.getElementById("contact");
+      if (contact) contact.scrollIntoView({ behavior: "smooth" });
     }
   });
 }
@@ -382,34 +439,47 @@ function initLearnMore(){
 function initMobileTabbar(){
   const tabbar = document.getElementById("mobileTabbar");
   if (!tabbar) return;
+  
   const tabs = tabbar.querySelectorAll(".tab-item[data-section]");
   const sectionIds = ["top","services","packages"];
   const sections = sectionIds.map(id => document.getElementById(id)).filter(Boolean);
 
   const setActive = (id) => {
-    tabs.forEach(tab => tab.classList.toggle("active", tab.dataset.section === id));
+    if (!tabs) return;
+    tabs.forEach(tab => {
+      if (tab) tab.classList.toggle("active", tab.dataset.section === id);
+    });
   };
 
-  if ("IntersectionObserver" in window && sections.length){
+  if ("IntersectionObserver" in window && sections.length > 0){
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
-        if (entry.isIntersecting) setActive(entry.target.id);
+        if (entry.isIntersecting && entry.target) setActive(entry.target.id);
       });
-    }, { rootMargin:"-45% 0px -45% 0px", threshold:0 });
-    sections.forEach(sec => observer.observe(sec));
+    }, { rootMargin: "-45% 0px -45% 0px", threshold: 0 });
+    sections.forEach(sec => {
+      if (sec) observer.observe(sec);
+    });
   }
 
   const menuBtn = document.getElementById("tabMenuBtn");
   const mobileMenu = document.getElementById("mobileMenu");
   const hamburger = document.getElementById("hamburger");
-  menuBtn?.addEventListener("click", () => {
-    const isOpen = mobileMenu.classList.toggle("open");
-    hamburger.classList.toggle("open", isOpen);
-    hamburger.setAttribute("aria-expanded", String(isOpen));
-    tabs.forEach(tab => tab.classList.remove("active"));
-    menuBtn.classList.toggle("active", isOpen);
-    if (isOpen) window.scrollTo({ top:0, behavior:"smooth" });
-  });
+  
+  if (menuBtn && mobileMenu && hamburger) {
+    menuBtn.addEventListener("click", () => {
+      const isOpen = mobileMenu.classList.toggle("open");
+      hamburger.classList.toggle("open", isOpen);
+      hamburger.setAttribute("aria-expanded", String(isOpen));
+      if (tabs) {
+        tabs.forEach(tab => {
+          if (tab) tab.classList.remove("active");
+        });
+      }
+      menuBtn.classList.toggle("active", isOpen);
+      if (isOpen) window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }
 }
 
 function initPromoPopup(){
@@ -424,16 +494,27 @@ function initPromoPopup(){
     requestAnimationFrame(() => overlay.classList.add("show"));
     sessionStorage.setItem("upnora_promo_shown", "1");
   };
+  
   const close = () => {
     overlay.classList.remove("show");
     setTimeout(() => overlay.classList.remove("visible"), 300);
   };
 
-  document.getElementById("promoClose")?.addEventListener("click", close);
-  document.getElementById("promoDismiss")?.addEventListener("click", close);
-  document.getElementById("promoCta")?.addEventListener("click", close);
-  overlay.addEventListener("click", (e) => { if (e.target === overlay) close(); });
-  document.addEventListener("keydown", (e) => { if (e.key === "Escape") close(); });
+  const closeBtn = document.getElementById("promoClose");
+  const dismissBtn = document.getElementById("promoDismiss");
+  const ctaBtn = document.getElementById("promoCta");
+  
+  if (closeBtn) closeBtn.addEventListener("click", close);
+  if (dismissBtn) dismissBtn.addEventListener("click", close);
+  if (ctaBtn) ctaBtn.addEventListener("click", close);
+  
+  overlay.addEventListener("click", (e) => {
+    if (e.target === overlay) close();
+  });
+  
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") close();
+  });
 
   setTimeout(open, 1200);
 }
