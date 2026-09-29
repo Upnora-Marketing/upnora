@@ -12,7 +12,7 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='1' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%231677FF'/%3E%3Cstop offset='1' stop-color='%2300D9C5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100' height='100' rx='20' fill='%23050B18'/%3E%3Cpath d='M28 30v25a14 14 0 0 0 28 0V42' stroke='url(%23g)' stroke-width='9' fill='none' stroke-linecap='round'/%3E%3Cpath d='M50 55 L72 30 M72 30 L58 32 M72 30 L74 44' stroke='url(%23g)' stroke-width='9' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=Noto+Kufi+Arabic:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -46,7 +46,7 @@
     </nav>
 
     <div class="nav-actions">
-      <div class="lang-switch" role="group" aria-label="Language">
+      <div class="lang-switch" role="group" aria-label="Language Switcher">
         <button type="button" class="lang-btn" data-lang="en">EN</button>
         <button type="button" class="lang-btn" data-lang="fr">FR</button>
         <button type="button" class="lang-btn" data-lang="ar">AR</button>
@@ -59,6 +59,11 @@
   </div>
 
   <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-lang lang-switch" role="group" aria-label="Language">
+      <button type="button" class="lang-btn" data-lang="en">EN</button>
+      <button type="button" class="lang-btn" data-lang="fr">FR</button>
+      <button type="button" class="lang-btn" data-lang="ar">AR</button>
+    </div>
     <nav aria-label="Mobile">
       <a href="#services" data-i18n="nav.services">Services</a>
       <a href="#how" data-i18n="nav.how">How It Works</a>
@@ -67,11 +72,6 @@
       <a href="#faq" data-i18n="nav.faq">FAQ</a>
       <a href="#contact" data-i18n="nav.contact">Contact</a>
     </nav>
-    <div class="mobile-lang lang-switch" role="group" aria-label="Language">
-      <button type="button" class="lang-btn" data-lang="en">EN</button>
-      <button type="button" class="lang-btn" data-lang="fr">FR</button>
-      <button type="button" class="lang-btn" data-lang="ar">AR</button>
-    </div>
     <a href="#contact" class="btn btn-primary whatsapp-link" data-i18n="nav.cta">Get a Free Audit</a>
   </div>
 </header>
@@ -134,7 +134,7 @@
     </div>
   </section>
 
-  <!-- ========== TRUST / VALUE STRIP ========== -->
+  <!-- ========== VALUE STRIP ========== -->
   <section class="value-strip fade-up">
     <p class="value-strip-line" data-i18n="value.line">Built to help local businesses get found, trusted, and chosen.</p>
     <ul class="value-items">
@@ -302,7 +302,7 @@
       <p data-i18n="portfolio.sub">Whatever you run, here's how we'd approach your growth.</p>
     </div>
     <div class="grid grid-3 portfolio-grid" id="portfolioGrid">
-      <!-- populated by script.js for easy editing via PORTFOLIO_ITEMS -->
+      <!-- Populated by script.js -->
     </div>
   </section>
 
@@ -451,7 +451,6 @@
   </div>
 </footer>
 
-
 <!-- ========== MOBILE BOTTOM NAVIGATION ========== -->
 <nav class="mobile-tabbar" id="mobileTabbar" aria-label="Quick navigation">
   <a href="#top" class="tab-item active" data-section="top">
@@ -476,7 +475,7 @@
   </button>
 </nav>
 
-<!-- ========== FIRST-ORDER PROMO POPUP ========== -->
+<!-- ========== PROMO POPUP ========== -->
 <div class="promo-overlay" id="promoOverlay">
   <div class="promo-modal" role="dialog" aria-modal="true" aria-labelledby="promoTitle">
     <button type="button" class="promo-close" id="promoClose" aria-label="Close">

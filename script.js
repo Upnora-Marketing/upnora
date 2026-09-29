@@ -1,17 +1,12 @@
 /* =========================================================
    UPNORA MARKETING — SCRIPT
-   Sections: Config / Translations / Portfolio data / i18n engine /
-   Nav & mobile menu / Scroll effects / Counters / FAQ accordion /
-   WhatsApp links / Init
    ========================================================= */
 
 /* ---------- CONFIG ---------- */
-/* Change this single variable to update every WhatsApp button on the site. */
 const WHATSAPP_NUMBER = "212672569891";
 const WHATSAPP_MESSAGE = "Hello UPNORA, I'd like a free audit for my business.";
 
 /* ---------- TRANSLATIONS ---------- */
-/* Edit any value below to change site copy. Keys map to data-i18n attributes in index.html. */
 const TRANSLATIONS = {
   en: {
     nav:{ services:"Services", how:"How It Works", packages:"Packages", portfolio:"Portfolio", faq:"FAQ", contact:"Contact", cta:"Get a Free Audit" },
@@ -194,8 +189,6 @@ const TRANSLATIONS = {
   }
 };
 
-/* ---------- WHAT WE OFFER, BY INDUSTRY ---------- */
-/* These describe our services applied to each business type — not past client work. Edit freely. */
 const PORTFOLIO_ITEMS = [
   { category:{en:"Restaurants & Cafés",fr:"Restaurants & Cafés",ar:"مطاعم ومقاهي"}, name:{en:"Get found at mealtime",fr:"Soyez visible à l'heure des repas",ar:"كن حاضرًا وقت الوجبات"}, desc:{en:"A menu-friendly website, WhatsApp ordering setup, and Google visibility so hungry customers nearby find you first.",fr:"Un site axé sur le menu, une commande WhatsApp et une visibilité Google pour que les clients affamés à proximité vous trouvent en premier.",ar:"موقع يبرز قائمة الطعام، وإعداد الطلب عبر واتساب، وتحسين الظهور على جوجل ليجدك الزبائن الجائعون القريبون أولاً."} },
   { category:{en:"Barbershops & Salons",fr:"Salons de Coiffure & Beauté",ar:"صالونات الحلاقة والتجميل"}, name:{en:"Fill your appointment book",fr:"Remplissez votre agenda",ar:"املأ جدول مواعيدك"}, desc:{en:"A booking-ready website with click-to-call, plus a Google Business setup built for local searches.",fr:"Un site prêt pour les réservations avec appel direct, et une fiche Google Business pensée pour les recherches locales.",ar:"موقع جاهز للحجز مع اتصال مباشر، وإعداد لملف جوجل بزنس مصمم للبحث المحلي."} },
@@ -205,14 +198,13 @@ const PORTFOLIO_ITEMS = [
   { category:{en:"E-commerce",fr:"E-commerce",ar:"متجر إلكتروني"}, name:{en:"Sell to your local market",fr:"Vendez à votre marché local",ar:"بِع لسوقك المحلي"}, desc:{en:"A product-led store built for local delivery, click-to-order, and targeted paid advertising.",fr:"Une boutique orientée produit conçue pour la livraison locale et la publicité ciblée.",ar:"متجر يركز على المنتجات مصمم للتوصيل المحلي والإعلانات المستهدفة."} }
 ];
 
-/* ---------- STATE ---------- */
 let currentLang = localStorage.getItem("upnora_lang") || "en";
 
-/* ---------- WHATSAPP LINKS ---------- */
 function buildWhatsAppLink(){
   const text = encodeURIComponent(WHATSAPP_MESSAGE);
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${text}`;
 }
+
 function applyWhatsAppLinks(){
   document.querySelectorAll(".whatsapp-link").forEach(el => {
     el.setAttribute("href", buildWhatsAppLink());
@@ -221,7 +213,6 @@ function applyWhatsAppLinks(){
   });
 }
 
-/* ---------- i18n ENGINE ---------- */
 function getValue(obj, path){
   return path.split(".").reduce((o,k)=> (o && o[k] !== undefined) ? o[k] : null, obj);
 }
@@ -251,7 +242,6 @@ function setLanguage(lang){
   applyTranslations(lang);
 }
 
-/* ---------- PORTFOLIO RENDER ---------- */
 function renderPortfolio(lang){
   const grid = document.getElementById("portfolioGrid");
   if (!grid) return;
@@ -269,7 +259,6 @@ function renderPortfolio(lang){
   `).join("");
 }
 
-/* ---------- NAV: SCROLL STATE + MOBILE MENU ---------- */
 function initNav(){
   const nav = document.getElementById("siteNav");
   const onScroll = () => nav.classList.toggle("scrolled", window.scrollY > 12);
@@ -294,14 +283,12 @@ function initNav(){
   });
 }
 
-/* ---------- LANGUAGE SWITCH BUTTONS ---------- */
 function initLangButtons(){
   document.querySelectorAll(".lang-btn").forEach(btn => {
     btn.addEventListener("click", () => setLanguage(btn.dataset.lang));
   });
 }
 
-/* ---------- FAQ ACCORDION ---------- */
 function initAccordion(){
   document.querySelectorAll(".accordion-item").forEach(item => {
     const trigger = item.querySelector(".accordion-trigger");
@@ -330,7 +317,6 @@ function initAccordion(){
   });
 }
 
-/* ---------- SCROLL REVEAL (fade-up) ---------- */
 function initScrollReveal(){
   const items = document.querySelectorAll(".fade-up");
   if (!("IntersectionObserver" in window)){
@@ -348,7 +334,6 @@ function initScrollReveal(){
   items.forEach(el => observer.observe(el));
 }
 
-/* ---------- ANIMATED COUNTERS ---------- */
 function initCounters(){
   const counters = document.querySelectorAll("[data-count]");
   if (!counters.length) return;
@@ -385,7 +370,6 @@ function initCounters(){
   counters.forEach(el => observer.observe(el));
 }
 
-/* ---------- SERVICE / WHY "LEARN MORE" (smooth scroll to contact) ---------- */
 function initLearnMore(){
   document.addEventListener("click", (e) => {
     const btn = e.target.closest(".service-card .learn-more");
@@ -395,7 +379,6 @@ function initLearnMore(){
   });
 }
 
-/* ---------- MOBILE BOTTOM TAB BAR ---------- */
 function initMobileTabbar(){
   const tabbar = document.getElementById("mobileTabbar");
   if (!tabbar) return;
@@ -429,7 +412,6 @@ function initMobileTabbar(){
   });
 }
 
-/* ---------- FIRST-ORDER PROMO POPUP ---------- */
 function initPromoPopup(){
   const overlay = document.getElementById("promoOverlay");
   if (!overlay) return;
@@ -456,7 +438,6 @@ function initPromoPopup(){
   setTimeout(open, 1200);
 }
 
-/* ---------- INIT ---------- */
 document.addEventListener("DOMContentLoaded", () => {
   applyTranslations(currentLang);
   applyWhatsAppLinks();
